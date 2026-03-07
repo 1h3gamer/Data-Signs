@@ -10,7 +10,7 @@ bins = [80,100,125,150]
 plt.xlabel("Blood Sugar Range")
 plt.ylabel("Total no. of patients")
 
-plt.hist(type, bins=bins, width=0.95, color=colors, label=label, orientation="horizontal")
+plt.hist(type, bins=bins, rwidth=0.95, color=colors, label=label, orientation="horizontal")
 
 plt.title("Blood Sugar Level Chart")
 plt.legend()
